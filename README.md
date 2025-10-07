@@ -34,7 +34,7 @@ selenium-pom-framework/
 │   │
 │   └── test/java/
 │       ├── tests/              # Test classes (LoginTests, CartTests, CheckoutTests, etc.)
-│       ├── suites/             # Test suites (optional grouping)
+│    
 │
 ├── resources/
 │   ├── config.properties       # Browser, URL, timeout configurations
@@ -176,7 +176,7 @@ public class TestListener implements ITestListener {
 
 ---
 
-## 💡Future Enhancements
+## Future Enhancements
 - Integrate **ExtentReports** for advanced reporting.
 - Add **Jenkins CI/CD pipeline** for automated execution.
 - Extend coverage with **API and DB validations**.
